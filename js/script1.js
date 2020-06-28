@@ -25,12 +25,12 @@ $("#navbarToggle").blur(
 var dc={};
 
 var homehtml="snippets/home-snippet.html";
-var allCategoriesUrl="http://davids-restaurant.herokuapp.com/categories.json";
+var allCategoriesUrl="https://davids-restaurant.herokuapp.com/categories.json";
 var categoryhtml="snippets/category-snippet.html";
 var categoriesTitleHtml="snippets/categories-title-snippet.html";
 var menuItemsTitleHtml="snippets/menu-items-title.html";
 var menuItemHtml="snippets/menu-item.html";
-var menuitemsurl="http://davids-restaurant.herokuapp.com/menu_items.json?category=";
+var menuitemsurl="https://davids-restaurant.herokuapp.com/menu_items.json?category=";
 
 //Convenience function for inserting innerhtml for 'select'
 
